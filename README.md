@@ -33,7 +33,8 @@ Hardware – PCs, Cyclone II , USB flasher
 
 **Program:**
 ```
-module booleanfunction_top(a,b,c,d,w,x,y,z,f1,f2);
+
+module booleanfunction(a,b,c,d,w,x,y,z,f1,f2);
 input a,b,c,d,w,x,y,z;
 output f1,f2;
 wire adash,bdash,cdash,ddash,ydash,p,q,r,s,t,u;
@@ -46,11 +47,15 @@ and(p,bdash,ddash);
 and(q,adash,b,d);
 and(r,a,b,cdash);
 or(f1,p,q,r);
-//type code for f2 as like f1
+and G1(s,ydash,z);
+and G2(t,x,y);
+and G3(u,w,y);
+or G4(f2,s,t,u);
 endmodule
 
-
 ```
+![image](https://github.com/maddyv123/BOOLEAN_FUNCTION_MINIMIZATION/assets/153618028/4f89b0c6-cd8c-46d0-a46f-8354f10f5d11)
+
 Developed by:MATHAVAN v
 register number:212223110026
 
