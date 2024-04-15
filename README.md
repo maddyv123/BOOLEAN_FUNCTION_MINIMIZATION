@@ -55,6 +55,8 @@ endmodule
 
 ```
 ![image](https://github.com/maddyv123/BOOLEAN_FUNCTION_MINIMIZATION/assets/153618028/4f89b0c6-cd8c-46d0-a46f-8354f10f5d11)
+**RTL REALISATION**
+![image](https://github.com/maddyv123/BOOLEAN_FUNCTION_MINIMIZATION/assets/153618028/3353603a-727b-4c6f-be98-6f2cea911c46)
 
 Developed by:MATHAVAN v
 register number:212223110026
